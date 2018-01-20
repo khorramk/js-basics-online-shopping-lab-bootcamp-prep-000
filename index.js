@@ -55,10 +55,12 @@ function viewCart() {
   if (cart.length === 2){
     console.log(`In your cart, you have ${k[0]} at $${price[0]} and ${k[1]} at $${price[1]}.`);
   }
-  if (cart.length >= 3){
+  if (cart.length === 3){
     console.log(`In your cart, you have ${k[0]} at $${price[0]}, ${k[1]} at $${price[1]}, and ${k[2]} at $${price[2]}.`);
   }
-  
+  if(cart.length >= 3){
+    
+  }
 }
 
 function total() {
