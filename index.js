@@ -88,6 +88,7 @@ function removeFromCart(item) {
       cart.pop(cart[i]);
     }
   }
+  return cart;
 }
 
 function placeOrder(cardNumber) {
