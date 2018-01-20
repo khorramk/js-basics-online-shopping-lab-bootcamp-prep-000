@@ -68,7 +68,7 @@ function total() {
   var items = 0
   for(let i =0; i < cart.length; i++){
     let k = cart[i];
-    let o = Object.keys(cart[i])(i);
+    let o = Object.keys(cart[i])[i];
      items += k[o];
     
     
