@@ -83,8 +83,9 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   for(let i=0; i < cart.length; i++){
+    
     if (cart[i].hasOwnProperty(item) === false){
-      alert("That item is not in your cart.");
+      console.log("That item is not in your cart.");
     }
     if(cart[i].hasOwnProperty(item)){
       const index = cart.indexOf(cart[i]);
