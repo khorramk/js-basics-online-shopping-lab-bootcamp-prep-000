@@ -82,6 +82,12 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
+  for(let i=0; i < car.length; i++){
+    
+    if(cart[i].hasOwnProperty(item)){
+      return cart.pop(cart[i]);
+    }
+  }
 }
 
 function placeOrder(cardNumber) {
