@@ -102,6 +102,6 @@ function placeOrder(cardNumber) {
   }
   
   if(cardNumber === Number){
-    
+    console.log(``);
   }
 }
