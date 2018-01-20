@@ -84,14 +84,13 @@ function removeFromCart(item) {
   // write your code here
   for(let i=0; i < cart.length; i++){
     
-    if (cart[i].hasOwnProperty(item) === false){
-      console.log("That item is not in your cart.");
-    }
+   
     if(cart[i].hasOwnProperty(item)){
       const index = cart.indexOf(cart[i]);
       cart.splice(index, 1);
     }
   }
+  
   return cart;
 }
 
